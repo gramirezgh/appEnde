@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "bdende",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "test": { 
+    "username": "postgres",
+    "password": "postgres",
+    "database": "bdende",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "bdende",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+
+  "token_secret": "a123_45b"
+}

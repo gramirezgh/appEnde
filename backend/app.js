@@ -21,7 +21,7 @@ require('./server/routes/usuarios')(app);
 
 app.get('*',(req, res)=>{
     res.status(200).send({
-        message:"Server activo ahora!!!"
+        message:"Server activo ahora FAVIO!!!"
     })
 })
 
